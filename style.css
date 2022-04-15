@@ -229,6 +229,12 @@ h1,p{
     margin-top: 50px;
 }
 
+.searchbox, .locationbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .jobtitle, .location{
     padding: 10px;
     border: none;
