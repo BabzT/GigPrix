@@ -13,7 +13,7 @@
 }
 
 .container{
-    color: black;
+    color: rgb(31, 29, 29);
     background-color: aliceblue;
     display: flex;
     flex-basis: 0;
@@ -22,7 +22,6 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    padding: 0 30px;
 }
 
 h1,p{
@@ -147,6 +146,8 @@ h1,p{
     width: 100%;
     padding: 0 10px;
     margin-top: 110px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .box1{
@@ -297,6 +298,8 @@ h1,p{
     border-radius: 5px;
     width: 100%;
     margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
     padding: 50px 40px;
 }
 
@@ -370,6 +373,8 @@ h1,p{
 .section3{
     width: 100%;
     margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
     overflow: hidden;
 }
 
@@ -634,4 +639,200 @@ h1,p{
 .plane{
     color: white;
     font-size: 50px;
+}
+
+/* SECTION FOUR */
+
+.section4{
+    background-color: rgba(215, 229, 240);
+    margin-top: 100px;
+    width: 100%;
+    padding: 60px 40px;
+}
+
+.subsec4{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.jobbox{
+    background-color: white;
+    width: 30%;
+    height: 380px;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.topbox{
+    width:100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fb{
+    font-size: 40px;
+    color: rgb(0, 102, 255);
+}
+
+.socialhead{
+    font-size: 25px;
+}
+
+.joblocation{
+    color: blueviolet;
+}
+
+.topboxvl{
+    border-left: 1px solid gainsboro;
+    height: 40px;
+}
+
+.jobboxhead{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.jobdetail{
+    width: 210px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dot{
+    color: gray;
+    font-size: 8px;
+}
+
+.applybox{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.applybtn button{
+    color: blueviolet;
+    background-color: rgba(215, 229, 240);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+.applybtn button:hover{
+    color: white;
+    background-color: blueviolet;
+}
+
+.jobimagebox{
+    display: flex;
+}
+
+.jobmen1{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.jobmen3{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: -25px;
+    cursor: pointer;
+}
+
+.imagecircle{
+    background-color: blueviolet;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: -23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagecircle:hover{
+    transform: scale(1.2);
+}
+
+.imagecircletext{
+    color: white;
+}
+
+.youtubecircle{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paypalcircle{
+    background-color: rgb(3, 139, 184);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.amazoncircle{
+    background-color: orangered;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.microsoftcircle{
+    background-color: rgb(3, 139, 184);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.applecircle{
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.site{
+    color: white;
+    font-size: 25px;
 }
