@@ -782,6 +782,11 @@ h1,p{
     color: white;
 }
 
+.fb{
+    font-size: 40px;
+    color: rgb(0, 102, 255);
+}
+
 .youtubecircle{
     background-color: red;
     width: 50px;
@@ -835,4 +840,17 @@ h1,p{
 .site{
     color: white;
     font-size: 25px;
+    animation: site 10s ease infinite;
 }
+
+@keyframes site {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.2, 1.2);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
