@@ -222,6 +222,7 @@ h1,p{
 .box2input{
     background-color: white;
     border-radius: 5px;
+    box-shadow: 0px 10px 30px -10px lightslategray;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -401,7 +402,7 @@ h1,p{
     align-items: center;
     margin-bottom: 20px;
     padding-left: 20px;
-    animation: scrollingleft 30s linear infinite;
+    animation: scrollingleft 60s linear infinite;
 }
 
 
@@ -565,7 +566,7 @@ h1,p{
     align-items: center;
     margin-bottom: 20px;
     padding-left: 20px;
-    animation: scrollingright 28s linear infinite;
+    animation: scrollingright 60s linear infinite;
 }
 
 @keyframes scrollingright{
@@ -909,6 +910,7 @@ h1,p{
   .subsec5{
       border-radius: 5px;
       background-color: blueviolet;
+      box-shadow: 0px 10px 30px -10px lightslategray;
       width: 100%;
       height: 350px;
       margin-top: 30px;
@@ -974,4 +976,188 @@ h1,p{
     font-size: 100px;
     color: white;
     opacity: 0.1;
+}
+
+/* SECTION SIX */
+.section6{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subbox6{
+    width: 60%;
+    padding: 40px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.subbox6 h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.subscribebox{
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-start;
+    box-shadow: 0px 10px 30px -10px lightslategray;
+}
+
+.emailbox{
+    width: 350px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: white;
+}
+
+.subscribe button{
+    height: 50px;
+    color: white;
+    background-color: blueviolet;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+
+.triangle1{
+    width: 130px;
+    height: 300px;
+    margin-left: -950px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: rotate(180deg);
+}
+
+.triangle2{
+    width: 130px;
+    height: 300px;
+    margin-left: 950px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tria1{
+    color: blueviolet;
+    opacity: 0.05;
+    font-size: 40px;
+    transform: rotate(-20deg);
+}
+
+.tria2{
+    color: blueviolet;
+    opacity: 0.05;
+    margin-left: 90px;
+    font-size: 40px;
+    transform: rotate(20deg);
+}
+
+.tria3{
+    color: blueviolet;
+    opacity: 0.05;
+    font-size: 40px;
+    transform: rotate(20deg);
+}
+
+/* SECTION SEVEN */
+.section7{
+    background-color: rgba(215, 229, 240);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 40px;
+}
+
+.subsec7box1{
+    width: 30%;
+    height: 300px;
+}
+
+.flogo{
+    display: flex;
+    width: 110px;
+    padding: 0;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footsocial{
+    width: 250px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fabcircle{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s ease-in-out;
+}
+
+.fabcircle:hover{
+    background-color: blueviolet;
+}
+
+.fbfoot{
+    font-size: 25px;
+    color: black;
+    transition: .5s ease-in-out;
+}
+
+.fbfoot:hover{
+    color: white;
+}
+
+.subsec7box2{
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerlink{
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.subsec7box2 a{
+    color: rgb(31, 29, 29);
+    line-height: 35px;
+    transition: .3s ease-in-out;
+}
+
+.subsec7box2 a:hover{
+    color: blueviolet;
+}
+
+.section8{
+    border-top: 1px solid rgb(172, 172, 172);
+    background-color: rgba(215, 229, 240);
+    height: 50px;
+    width: 100%;
+    padding: 20px 40px;
 }
