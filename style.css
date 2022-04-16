@@ -202,7 +202,10 @@ h1,p{
   .box2{
     width: 55%;
     height: 500px;
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    align-items: center;
 }
 
 .box2head{
@@ -220,24 +223,33 @@ h1,p{
 }
 
 .box2input{
+    width: 92%;
     background-color: white;
     border-radius: 5px;
     box-shadow: 0px 10px 30px -10px lightslategray;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    padding: 10px;
+    justify-content: center;
+    padding: 5px;
     margin-top: 50px;
 }
 
-.searchbox, .locationbox{
+.searchbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+}
+
+.locationbox{
+    margin-left: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .jobtitle, .location{
+    width: 100%;
     padding: 10px;
     border: none;
     outline: none;
@@ -944,13 +956,11 @@ h1,p{
       color: white;
       font-size: 22px;
       font-weight: bold;
-      text-align: justify;
   }
 
   .sec5quote{
       color: gold;
       font-size: 35px;
-      text-align: justify;
   }
 
   .star{
