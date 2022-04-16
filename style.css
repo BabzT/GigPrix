@@ -235,6 +235,7 @@ h1,p{
 }
 
 .searchbox{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -242,6 +243,7 @@ h1,p{
 }
 
 .locationbox{
+    width: 100%;
     margin-left: 20px;
     display: flex;
     align-items: center;
@@ -249,8 +251,8 @@ h1,p{
 }
 
 .jobtitle, .location{
-    width: 255px;
-    padding: 10px;
+    width: 100%;
+    padding: 5px;
     border: none;
     outline: none;
 }
