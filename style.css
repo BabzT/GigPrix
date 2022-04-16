@@ -374,22 +374,22 @@ h1,p{
 .section3{
     width: 100%;
     margin-top: 100px;
-    margin-left: 40px;
-    margin-right: 40px;
     overflow: hidden;
 }
 
 .subsec3box1{
     width: 100%;
     height: 150px;
+    padding-left: 40px;
+    padding-right: 40px;
     margin-bottom: 20px;
 }
 
-.subsec3box1 h1{
+.subsec3box1head{
     font-size: 45px;
 }
 
-.subsec3box1 p{
+.subsec3box1text{
     color:rgb(58, 54, 54);
     margin-top: 20px;
 }
@@ -651,6 +651,12 @@ h1,p{
     padding: 60px 40px;
 }
 
+.subsec4box1{
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
 .subsec4{
     width: 100%;
     margin-top: 20px;
@@ -861,9 +867,15 @@ h1,p{
       width: 100%;
       margin-top: 100px;
       margin-bottom: 50px;
-      margin-left: 40px;
-      margin-right: 40px;
+      padding-left: 40px;
+      padding-right: 40px;
   }
+
+  .subsec5box1{
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+}
 
   .quote{
       font-size: 100px;
@@ -932,21 +944,14 @@ h1,p{
       color: white;
       font-size: 22px;
       font-weight: bold;
-      margin-left: 17px;
-      margin-top: -15px;
+      text-align: justify;
   }
 
   .sec5quote{
-      position: absolute;
-      margin-top: -25px;
-      margin-left: 250px;
       color: gold;
+      font-size: 35px;
+      text-align: justify;
   }
-
-  .sec5quoteleft{
-      color: gold;
-  }
-
 
   .star{
       color: gold;
