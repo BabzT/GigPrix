@@ -1339,6 +1339,10 @@ h1,p{
     padding-right: 20px;
 }
 
+.subsec5box1{
+    height: 100px;
+}
+
 .jobholderbox{
     flex-direction: column;
 }
@@ -1348,6 +1352,51 @@ h1,p{
     padding-right: 40px;
 }
 
+.subsec5{
+    height: 350px;
+    padding: 20px;
+}
 
+.sec5div{
+    flex-direction: column;
+}
+
+.textsec5{
+    width: 100%;
+}
+
+.subsec5text{
+    font-size: 20px;
+}
+
+
+/* SECTION SIX */
+.section6{
+    flex-direction: column;
+}
+
+.subbox6{
+    width: 100%;
+    border: 1px solid red;
+}
+
+.subbox6 h1{
+    font-size: 35px;
+}
+
+.emailbox{
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: white;
+}
+
+.triangle1, .triangle2{
+    display: none;
+}
 
 }
