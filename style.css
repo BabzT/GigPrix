@@ -1377,7 +1377,6 @@ h1,p{
 
 .subbox6{
     width: 100%;
-    border: 1px solid red;
 }
 
 .subbox6 h1{
@@ -1386,17 +1385,21 @@ h1,p{
 
 .emailbox{
     width: 100%;
-    height: 50px;
-    border: none;
-    outline: none;
-    padding: 10px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    background-color: white;
 }
 
 .triangle1, .triangle2{
     display: none;
+}
+
+/* SECTION SEVEN */
+.section7{
+    flex-direction: column;
+    padding: 40px 20px;
+}
+
+.subsec7box1{
+    width: 100%;
+    height: 250px;
 }
 
 }
