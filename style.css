@@ -1280,10 +1280,6 @@ h1,p{
 }
 
 /* SECTION THREE */
-.section3{
-
-}
-
 .subsec3box1{
     height: 160px;
     padding: 0 20px;
@@ -1302,7 +1298,41 @@ h1,p{
 }
 
 .categorybox{
+    width: 95%;
+    height: 80%;
+}
+
+.categoryhead{
+    font-size: 25px;
+}
+
+/* SECTION FOUR */
+.section4{
+    padding: 60px 20px;
+}
+
+.subsec4{
+    flex-direction: column;
+}
+
+.jobbox{
     width: 100%;
+    margin-top: 10px;
+}
+
+/* SECTION FIVE */
+.section5{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.jobholderbox{
+    flex-direction: column;
+}
+
+.jobholderdiv{
+    width: 100%;
+    padding-right: 40px;
 }
 
 }
