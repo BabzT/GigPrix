@@ -1233,6 +1233,10 @@ h1,p{
        flex-direction: column;
    }
 
+    ::placeholder{
+       font-size: 14px;
+   }
+
    /* NAVBAR */
 
     .header{
