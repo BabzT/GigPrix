@@ -1238,17 +1238,13 @@ h1,p{
     .header{
         display: block;
         padding: 5px 20px;
-        background-color: blueviolet;
+        background-color: white;
     }
 
    .menu li a{
        font-size: 22px;
        line-height: 70px;
-       color: white;
-   }
-
-   .menu li a:hover{
-        color: white;
+       color: black;
    }
 
     .menu{
@@ -1258,7 +1254,7 @@ h1,p{
         width: 100%;
         text-align: center;
         max-height: 0;
-        transition: max-height 1.8s ease-out ;
+        transition: max-height .8s ease-out ;
     }
 
     .menulinks{
@@ -1276,31 +1272,35 @@ h1,p{
     }
 
     .signbtn button{
-        color: blueviolet;
+        color: black;
         background-color: white;
         font-size: 22px;
         padding: 10px 100px;
+        border: 2px solid black;
         border-radius: 10px;
     }
     
     .registerbtn button{
-        color: blueviolet;
+        color: black;
         background-color: white;
         font-size: 22px;
         padding: 10px 100px;
         margin-top: 30px;
+        border: 2px solid black;
         border-radius: 10px;
     }
     
     .signbtn button:hover{
-        color: blueviolet;
-        background-color: white;
+        color: white;
+        background-color: blueviolet;
+        border: none;
         border-radius: 10px;
     }
     
     .registerbtn button:hover{
-        color: blueviolet;
-        background-color: white;
+        color: white;
+        background-color: blueviolet;
+        border: none;
         border-radius: 10px;
     }
     
