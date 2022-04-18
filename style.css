@@ -29,17 +29,46 @@ h1,p{
 }
 
 /* NAVBAR */
-
-.navbar{
+.header{
     background-color: aliceblue;
     width: 100%;
+    padding: 0 40px;
+    top: 0;
     display: flex;
+    position: fixed;
     align-items: center;
     justify-content: space-between;
-    position: fixed;
-    top: 0;
-    padding: 10px 40px;
-    z-index: 20;
+    z-index: 20;   
+}
+
+.header ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+.menu{
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu li a{
+    color: rgb(31, 29, 29);
+    font-weight: 500;
+    transition: .3s ease;
+}
+
+.menulinks{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.menu li a:hover{
+    color: blueviolet;
 }
 
 .logo{
@@ -47,7 +76,6 @@ h1,p{
     width: 110px;
     height: 100%;
     padding: 0;
-    margin: 0;
     align-items: center;
 }
 
@@ -89,21 +117,6 @@ h1,p{
     font-weight: 700;
 }
 
-.navlinks{
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.navlinks a{
-    font-weight: 500;
-    color: rgb(58, 54, 54);
-}
-
-.navlinks a:hover{
-    color: blueviolet;
-}
-
 .signbtn button{
     color: blueviolet;
     border: none;
@@ -138,6 +151,11 @@ h1,p{
     border-radius: 5px;
     transition: all .5s ease-in-out;
 }
+
+.menu-btn, .menu-icon{
+    display: none;
+}
+
 
 /* SECTION ONE */
 .section1{
@@ -1200,6 +1218,7 @@ h1,p{
     color: blueviolet;
 }
 
+/* SECTION EIGHT */
 .section8{
     border-top: 1px solid rgb(172, 172, 172);
     background-color: rgba(215, 229, 240);
@@ -1214,9 +1233,132 @@ h1,p{
        flex-direction: column;
    }
 
-   .navbar{
-       display: none;
+   /* NAVBAR */
+
+    .header{
+        display: block;
+        padding: 0 20px;
+        background-color: blueviolet;
+    }
+
+   .menu li a{
+       font-size: 22px;
+       line-height: 70px;
+       color: white;
    }
+
+   .menu li a:hover{
+        color: white;
+   }
+
+    .menu{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+        max-height: 0;
+        transition: max-height 3s ease-out ;
+    }
+
+    .menulinks{
+        flex-direction: column;
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    .menubutton{
+        width: 100%;
+        padding: 50px 0;
+        margin-bottom: 200px;
+    }
+
+    .signbtn button{
+        color: blueviolet;
+        background-color: white;
+        font-size: 20px;
+        padding: 10px 30px;
+        border-radius: 10px;
+    }
+    
+    .registerbtn button{
+        color: blueviolet;
+        background-color: white;
+        font-size: 20px;
+        padding: 10px 30px;
+        border-radius: 10px;
+    }
+    
+    .signbtn button:hover{
+        color: blueviolet;
+        background-color: white;
+        border-radius: 10px;
+    }
+    
+    .registerbtn button:hover{
+        color: blueviolet;
+        background-color: white;
+        border-radius: 10px;
+    }
+    
+
+    .header .menu-icon{
+        display: block;
+        padding: 28px 0;
+        position: relative;
+        float: right;
+        cursor: pointer;
+    }
+    
+    .header .menu-icon .nav-icon{
+        background-color: black;
+        display: block;
+        height: 3px;
+        width: 30px;
+        position: relative;
+        transition: background .2s ease-out;
+    }
+    
+    .header .menu-icon .nav-icon:before{
+        background-color: black;
+        content: "";
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        transition: all .2s ease-out;
+        top: 5px;
+    }
+    
+    .header .menu-icon .nav-icon:after{
+        background-color: black;
+        content: "";
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        transition: all .2s ease-out;
+        top: -5px;
+    }
+    
+    .header .menu-btn:checked ~ .menu{
+        max-height: 1000px;
+    }
+    
+    .header .menu-btn:checked ~ .menu-icon .nav-icon{
+        background: transparent;
+    }
+    
+    .header .menu-btn:checked ~ .menu-icon .nav-icon::before{
+        transform: rotate(-45deg);
+        top: 0;
+    }
+    
+    .header .menu-btn:checked ~ .menu-icon .nav-icon:after{
+        transform: rotate(45deg);
+        top: 0;
+    }
+
 
    /* SECTION ONE */
    .section1{
@@ -1400,6 +1542,15 @@ h1,p{
 .subsec7box1{
     width: 100%;
     height: 250px;
+}
+
+.footerlink{
+    margin-bottom: 10px;
+}
+
+/* SECTION EIGHT */
+.section8{
+    padding: 40px 20px;
 }
 
 }
