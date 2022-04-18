@@ -14,7 +14,7 @@ This WebPage is fully Responsive has some animations and some effects on hover.
 - CSS
 - Visual Studio Code as a Tool.
 
-## Don't forget to drop a star and follow me: +1:
+## Don't forget to drop a star and follow me:thumbsup:
 
 Thanks.
 
